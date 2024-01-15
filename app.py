@@ -8,3 +8,9 @@ while True:
         else:
             print("Car started...")
             car_started = True
+    elif command == "stop":
+        if not car_started:
+            print("The car is already stopped")
+        else:
+            print("Car stopped")
+            car_started = False
