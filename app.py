@@ -20,3 +20,8 @@ while True:
             stop to stop the car
             quit to quit
         """)
+    elif command == "quit":
+        print("Quitting the game")
+        break
+    else:
+        print("Invalid command.")
