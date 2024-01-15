@@ -14,3 +14,9 @@ while True:
         else:
             print("Car stopped")
             car_started = False
+    elif command == "help":
+        print("""
+            start to start the car
+            stop to stop the car
+            quit to quit
+        """)
